@@ -1,0 +1,30 @@
+2021-07-05 13:33:37 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select *
+from cliente [42102-200]
+2021-07-05 13:34:49 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select *
+from cliente [42102-200]
+2021-07-05 13:37:27 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select * from cliente [42102-200]
+2021-07-05 13:39:32 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTE" not found; SQL statement:
+select * from cliente [42102-200]
+2021-07-05 13:41:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE CLIENTE( ID INT AUTO_INCREMENTAL[*], NOMBRE VARCHAR(250), APELLIDO VARCHAR(250), DIRECCION VARCHAR(100), DNI INTEGER, FECHA DATE )"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE cliente( id int auto_incremental, nombre varchar(250), apellido varchar(250), direccion varchar(100), dni integer, fecha date ) [42001-200]
+2021-07-05 13:41:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE CLIENTE( ID INT AUTO_INCREMENTAL[*], NOMBRE VARCHAR(250), APELLIDO VARCHAR(250), DIRECCION VARCHAR(100), DNI INTEGER, FECHA DATE )"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE cliente( id int auto_incremental, nombre varchar(250), apellido varchar(250), direccion varchar(100), dni integer, fecha date ) [42001-200]
+2021-07-05 13:42:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE CLIENTE( ID INT AUTO_INCREMENTAL[*], NOMBRE VARCHAR(250), APELLIDO VARCHAR(250), DIRECCION VARCHAR(100), DNI INT, FECHA DATE )"; expected "(, FOR, UNSIGNED, INVISIBLE, VISIBLE, NOT, NULL, AS, DEFAULT, GENERATED, ON, NOT, NULL, AUTO_INCREMENT, BIGSERIAL, SERIAL, IDENTITY, NULL_TO_DEFAULT, SEQUENCE, SELECTIVITY, COMMENT, CONSTRAINT, PRIMARY, UNIQUE, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE cliente( id int auto_incremental, nombre varchar(250), apellido varchar(250), direccion varchar(100), dni int, fecha date ) [42001-200]
+2021-07-05 13:44:57 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "CLIENTS" not found; SQL statement:
+select *
+from clients [42102-200]
+2021-07-05 13:50:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PERSONS" already exists; SQL statement:
+CREATE TABLE Persons ( PersonID int, LastName varchar(255), FirstName varchar(255), Address varchar(255), City varchar(255) ) [42101-200]
