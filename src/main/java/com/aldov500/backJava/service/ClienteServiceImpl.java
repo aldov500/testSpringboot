@@ -20,12 +20,12 @@ public class ClienteServiceImpl implements IClienteService{
 
     @Override
     public Cliente guardarCliente(Cliente cliente) {
-        return null;
+        return iClienteDAO.save(cliente);
     }
 
     @Override
     public Cliente listarClientePorID(Long id) {
-        return null;
+        return iClienteDAO.findById(id).get();
     }
 
     @Override
