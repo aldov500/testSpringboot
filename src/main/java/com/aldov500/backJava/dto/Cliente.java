@@ -8,6 +8,7 @@ import java.util.Date;
 public class Cliente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id")
     private Long id;
     @Column(name = "nombre")
     private String nombre;
@@ -17,7 +18,7 @@ public class Cliente {
     private String direccion;
     @Column(name = "dni")
     private int dni;
-    @Temporal(TemporalType.TIMESTAMP)
+    @Temporal(TemporalType.DATE)
     private Date fecha;
 
     public Cliente() {
